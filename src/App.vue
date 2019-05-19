@@ -1,16 +1,19 @@
 <template>
   <div id="app">
+    <Header/>
     <RockPaperScissorsLizardSpock/>
   </div>
 </template>
 
 <script>
-import RockPaperScissorsLizardSpock from './components/RockPaperScissorsLizardSpock.vue'
+import Header from '@/components/Header.vue'
+import RockPaperScissorsLizardSpock from '@/components/RockPaperScissorsLizardSpock.vue'
 
 export default {
   name: 'app',
   components: {
-    RockPaperScissorsLizardSpock
+    RockPaperScissorsLizardSpock,
+    Header
   }
 }
 </script>
